@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "js": "node javascript/src/index.js"
   },
   "author": "LuccasJSantos",
   "license": "MIT",

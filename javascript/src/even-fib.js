@@ -1,4 +1,3 @@
-const R = require ('ramda')
 const { add, constant, ifElse, ifElseValue, isEven, mapToFnWith, sum } = require('./helpers')
 
 // sndIsGT -> Number -> Pair Number -> Boolean

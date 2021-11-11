@@ -1,2 +1,11 @@
 node_modules
+purescript/bower_components/
+purescript/.pulp-cache/
+purescript/output/
+purescript/generated-docs/
+purescript/.psc-package/
+purescript/.psc*
+purescript/.purs*
+purescript/.psa*
+purescript/.spago
 

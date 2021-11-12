@@ -1,6 +1,7 @@
 module EvenFibonacci where
 
 import Prelude
+import Data.Int (even)
 import Data.Pair (Pair, (~), snd, uncurry)
 
 sumEvenFib :: Int -> Int
@@ -14,7 +15,7 @@ sumEvenFib limit =
       in
         if snd pair > limit then
           total
-        else if next `mod` 2 == 0 then
+        else if even next then
           recursive (total + next) ((snd pair) ~ next)
         else
           recursive total ((snd pair) ~ next)
